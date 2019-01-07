@@ -44,5 +44,5 @@
 - │   └── main.js       	// Webpack 预编译入口
 
 ## 安装运行（安装运行前请确定已安装node环境） ##
-环境安装：npm install
-启动服务：npm run dev
+- 环境安装：npm install
+- 启动服务：npm run dev
