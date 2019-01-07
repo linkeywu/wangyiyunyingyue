@@ -26,6 +26,10 @@
 环境安装：npm install
 启动服务：npm run dev
 ## 功能效果图 ##
+![](https://github.com/linkeywu/wangyiyunyingyue/blob/master/assets/index_md.png)
+![](https://github.com/linkeywu/wangyiyunyingyue/blob/master/assets/zj.jpg)
+![](https://github.com/linkeywu/wangyiyunyingyue/blob/master/assets/bof.jpg)
+![](https://github.com/linkeywu/wangyiyunyingyue/blob/master/assets/gc.jpg)
 
 ## 项目构成 ##
 - ├── build                    // 构建服务和webpack配置
