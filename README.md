@@ -1,21 +1,48 @@
-# music_163
+# 网易云音乐 #
 
-> A Vue.js project
+----------
 
-## Build Setup
+它会成为用vue实现网易云音乐最全的webapp，我们的目标是更像，更快，更优雅
 
-``` bash
-# install dependencies
-npm install
+友情提示：老用户更新可能需要重新npm install，开启webpack2新征程
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 技术栈 ##
+- Vue2：采用最新Vue2的语法
+- Vuex：管理公共组件状态量
+- vue-router：管理单页面应用路由
+- axios：发起http请求
+- stylus：css预处理语言
+- Express：vue-cli使用Express做服务器。
+- Webpack：自动化构建工具，主要配置vue-cli脚手架提供。
+- ES6：采用ES6语法。
+- CSS3：CSS3动画及样式。
+## 功能介绍 ##
 
-# build for production with minification
-npm run build
+网易云（轮播，推荐专辑，热歌列表）
+播放页面（歌词逐字播放，碟片切换）
+歌手，专辑，歌单，用户等详情展示
+音乐播放功能（切歌，播放列表，播放进度显示）
+## 安装运行（安装运行前请确定已安装node环境） ##
+环境安装：npm install
+启动服务：npm run dev
+## 功能效果图 ##
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 项目构成 ##
+- ├── build                    // 构建服务和webpack配置
+- ├── config            		 // 项目不同环境的配置
+- ├── dist               		 // 项目build目录
+- ├── index.html          	 // 项目入口文件
+- ├── package.json      		 // 项目配置文件
+- ├── static       			 // 放置静态资源
+- ├── src                		 // 生产目录
+- │   ├── components       		// 各种组件
+- │   ├── plugins              // 插件
+- │   ├── router          	// 路由配置器
+- │   ├── store     		// vuex状态管理器
+- │   ├── views             // 各个视图           	   
+- │   ├── App.vue         	// 主页面
+- │   └── main.js       	// Webpack 预编译入口
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 安装运行（安装运行前请确定已安装node环境） ##
+环境安装：npm install
+启动服务：npm run dev
